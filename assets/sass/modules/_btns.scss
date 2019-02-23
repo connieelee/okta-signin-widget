@@ -137,6 +137,10 @@
   $google-icon-bg-color, $google-label-bg-color, $google-border-color);
 }
 
+.social-auth-google-button.link-button {
+  color: $dark-text-color;
+}
+
 .social-auth-linkedin-button {
   @include social-auth-button-template(url('../img/icons/login/linkedin_logo.png'),
   $linkedin-icon-bg-color, $linkedin-label-bg-color, $linkedin-border-color);
